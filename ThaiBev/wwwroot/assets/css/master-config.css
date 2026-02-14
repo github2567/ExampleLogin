@@ -1,0 +1,295 @@
+/* --------------------------------------------------
+
+data-blc
+
+-------------------------------------------------- */
+
+#data-blc .nav-tabs-blc {
+  padding-top: 0;
+}
+
+#data-blc .nav-tabs-blc .nav-ul-blc .nav-tabs .nav-item .nav-link {
+  padding-bottom: 15px !important;
+  padding-top: 15px !important;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#data-blc .nav-tabs-blc .nav-ul-blc {
+  width: 100%;
+}
+
+#data-blc .nav-tabs-blc .nav-ul-blc .nav-tabs .nav-item {
+  width: calc(100% / 8);
+}
+
+#data-blc .nav-tabs-blc .nav-ul-blc .nav-tabs .nav-item .nav-link .btn-icon-before {
+  padding: 0 20px;
+  width: 100%;
+  display: block;
+}
+
+#data-blc .nav-tabs-blc {
+  top: 0;
+}
+
+#data-blc .nav-tabs-blc .nav-ul-blc .nav-tabs .nav-item:last-child::after {
+  content: none;
+}
+
+/* --------------------------------------------------
+
+setting-blc
+
+-------------------------------------------------- */
+
+.setting-blc .ttl {
+  display: block;
+  font-size: 130%;
+  font-weight: 600;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+.setting-blc .ttl+.inner {
+  margin-top: 1rem;
+}
+
+
+.setting-blc .inner .set-ul-blc>.set-list-item {
+  margin-top: 30px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  border-top: 1px solid #222;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item:first-child {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl {
+  width: 100%;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl+.btn-style01 {
+  margin-top: 1rem;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl th,
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl td {
+  padding: 15px 15px;
+  box-sizing: border-box;
+  border: 1px solid #dee2e6;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl th {
+  width: 400px;
+  background-color: var(--color-mid-grey);
+  vertical-align: middle;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl td {
+  width: calc(100% - 400px);
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl th .d-flex {
+  align-items: flex-start;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl th .d-flex>span {
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-blue);
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl th .d-flex>span i {
+  font-size: 12px;
+  color: #fff;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl th .d-flex h3 {
+  font-weight: 600;
+  font-size: 100%;
+  max-width: calc(100% - 25px);
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl td .list-item li {
+  margin-top: 10px;
+  display: flex;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl td .list-item li:first-child {
+  margin-top: 0;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl td .list-item li h4 {
+  font-weight: 500;
+  padding-right: 20px;
+  padding-top: 6px;
+  box-sizing: border-box;
+  max-width: 100px;
+  width: 100%;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .tbl td .list-item li .input-blc {
+  width: calc(100% - 100px);
+}
+
+.setting-blc .btn-style01 {
+  justify-content: flex-end !important;
+}
+
+.setting-blc .btn-style01 .left-blc,
+.setting-blc .btn-style01 .right-blc {
+  width: 50%;
+}
+
+.setting-blc .btn-style01 .right-blc {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.setting-blc .btn-style01 .right-blc .btn.btn-secondary {
+  max-width: 100px !important;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .set-ttl-blc {
+  display: flex;
+  align-items: center;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .set-ttl-blc .ttl {
+  width: 50%;
+}
+
+.setting-blc .inner .set-ul-blc>.set-list-item .set-ttl-blc .btn-style01 {
+  width: 50%;
+  margin-top: 0 !important;
+}
+
+/* --------------------------------------------------
+
+ql-html
+
+-------------------------------------------------- */
+
+button.ql-html-buttonOk {
+  background: var(--button-bg) !important;
+  color: #ffffff;
+  font-size: 100%;
+  font-weight: 400;
+  border: none !important;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-width: 250px;
+  width: 100%;
+}
+
+button.ql-html-buttonCancel {
+  background: var(--nf-bg-1) !important;
+  color: var(--button-bg) !important;
+  font-size: 100%;
+  font-weight: 400;
+  border: none !important;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.ql-html-buttonGroup {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  transform: none;
+  position: relative;
+  bottom: 0;
+  margin-top: 1rem;
+}
+
+.ql-html-textContainer {
+  height: calc(100% - 0px);
+}
+
+.ql-html-textArea {
+  width: 100% !important;
+  left: 0;
+  height: calc(100% - 90px) !important;
+}
+
+.ql-html-popupContainer .ql-editor {
+  border: 1px solid #222222;
+}
+
+.ql-html-popupTitle {
+  font-size: 120%;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* -------------------------------------------------
+
+email-page-pane
+
+------------------------------------------------- */
+
+#email-page-pane .setting-blc .btn-style01 {
+  justify-content: space-between !important;
+}
+
+#email-page-pane .setting-blc .inner .set-ul-blc>.set-list-item {
+  background-color: rgb(248 248 248);
+  border: 1px solid #dee2e6;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#email-page-pane .setting-blc .inner .set-ul-blc>.set-list-item .tbl th {
+  background-color: #fff;
+}
+
+#email-page-pane .setting-blc .inner .set-ul-blc>.set-list-item .tbl td {
+  background-color: #fff;
+}
+
+#email-page-pane .setting-blc .inner .set-ul-blc>.set-list-item:first-child {
+  margin-top: 0 !important;
+}
+
+#email-page-pane .setting-blc .inner .set-ul-blc>.set-list-item .btn-style01 .btn.btn-secondary {
+  background-color: #ffffff !important;
+  border: 1px solid #dee2e6 !important;
+}
+
+/* -------------------------------------------------
+
+disabled
+
+------------------------------------------------- */
+
+.disabled-item a {
+  background-color: #ddd;
+  color: #8b8b8b !important;
+}
+
+.preview-modal-blc .modal-body .left-blc {
+  width: 100%;
+  padding: 0;
+}

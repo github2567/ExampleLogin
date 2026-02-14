@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev\\wwwroot\\scripts\\controllers\\logincontroller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|solutionrelative:wwwroot\\scripts\\controllers\\logincontroller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D188C0C6-7A87-4306-8263-6BACBB7DDA6C}|..\\ThaiBev.DAL\\ThaiBev.DAL.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.dal\\common\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4601426E-7210-443F-ACBA-E60BA9233E9C}|..\\ThaiBev.Domain\\ThaiBev.Domain.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.domain\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6931AA2D-9C20-4235-9274-F179F6BA80D6}|..\\ThaiBev.WebApi\\ThaiBev.WebApi.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.webapi\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D188C0C6-7A87-4306-8263-6BACBB7DDA6C}|..\\ThaiBev.DAL\\ThaiBev.DAL.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6931AA2D-9C20-4235-9274-F179F6BA80D6}|..\\ThaiBev.WebApi\\ThaiBev.WebApi.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6931AA2D-9C20-4235-9274-F179F6BA80D6}|..\\ThaiBev.WebApi\\ThaiBev.WebApi.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|solutionrelative:views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16C964C2-466B-4289-B02C-558062F611A4}|ThaiBev.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D188C0C6-7A87-4306-8263-6BACBB7DDA6C}|..\\ThaiBev.DAL\\ThaiBev.DAL.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.dal\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4601426E-7210-443F-ACBA-E60BA9233E9C}|..\\ThaiBev.Domain\\ThaiBev.Domain.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.domain\\models\\userlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D188C0C6-7A87-4306-8263-6BACBB7DDA6C}|..\\ThaiBev.DAL\\ThaiBev.DAL.csproj|c:\\users\\lenovo\\desktop\\apply\\thaibev\\src\\thaibev.dal\\common\\userlistdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T10:50:19.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T03:39:26.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.DAL\\Common\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "..\\ThaiBev.DAL\\Common\\UserRegistration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.DAL\\Common\\UserRegistration.cs",
+              "RelativeToolTip": "..\\ThaiBev.DAL\\Common\\UserRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T10:38:18.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRegister.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.Domain\\Models\\UserRegister.cs",
+              "RelativeDocumentMoniker": "..\\ThaiBev.Domain\\Models\\UserRegister.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.Domain\\Models\\UserRegister.cs",
+              "RelativeToolTip": "..\\ThaiBev.Domain\\Models\\UserRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T06:37:54.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.DAL\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\ThaiBev.DAL\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.DAL\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\ThaiBev.DAL\\DependencyInjection.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T09:17:55.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.js",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\wwwroot\\Scripts\\Controllers\\LoginController.js",
+              "RelativeDocumentMoniker": "wwwroot\\Scripts\\Controllers\\LoginController.js",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\wwwroot\\Scripts\\Controllers\\LoginController.js",
+              "RelativeToolTip": "wwwroot\\Scripts\\Controllers\\LoginController.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-14T07:22:50.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserList.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.Domain\\Models\\UserList.cs",
+              "RelativeDocumentMoniker": "..\\ThaiBev.Domain\\Models\\UserList.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.Domain\\Models\\UserList.cs",
+              "RelativeToolTip": "..\\ThaiBev.Domain\\Models\\UserList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T03:43:06.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "Views\\Login\\Register.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T03:39:35.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T03:39:04.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAALwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T03:38:27.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserListDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.DAL\\Common\\UserListDAL.cs",
+              "RelativeDocumentMoniker": "..\\ThaiBev.DAL\\Common\\UserListDAL.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.DAL\\Common\\UserListDAL.cs",
+              "RelativeToolTip": "..\\ThaiBev.DAL\\Common\\UserListDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T03:18:05.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\ThaiBev.DAL\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\ThaiBev.DAL\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T03:16:16.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\ThaiBev.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.WebApi\\appsettings.json",
+              "RelativeToolTip": "..\\ThaiBev.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-13T17:35:25.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.WebApi\\Controllers\\AuthenController.cs",
+              "RelativeDocumentMoniker": "..\\ThaiBev.WebApi\\Controllers\\AuthenController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.WebApi\\Controllers\\AuthenController.cs",
+              "RelativeToolTip": "..\\ThaiBev.WebApi\\Controllers\\AuthenController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAD8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T17:23:15.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ThaiBev.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev.WebApi\\Program.cs",
+              "RelativeToolTip": "..\\ThaiBev.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T17:19:48.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Apply\\ThaiBev\\src\\ThaiBev\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-13T17:16:15.272Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

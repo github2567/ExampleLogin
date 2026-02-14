@@ -1,0 +1,398 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------
+
+tbl01
+
+------------------------------------------------------*/
+
+#tbl01 {
+  position: relative;
+}
+
+/* ------------------------------------------------------
+
+head-btn-style01
+
+------------------------------------------------------*/
+
+.head-btn-style01 {
+  top: -6px;
+}
+
+/* ------------------------------------------------------
+
+data-blc
+
+------------------------------------------------------*/
+
+#data-blc .card .card-body .card-ttl-section {
+  font-size: 150%;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--color-red);
+}
+
+/* ------------------------------------------------------
+
+dataTables_wrapper
+
+------------------------------------------------------*/
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr:nth-child(1) th:nth-child(1),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr:nth-child(1) th:nth-child(1) {
+  width: 40px !important;
+  min-width: 40px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr:nth-child(1) th:nth-child(2),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr:nth-child(1) th:nth-child(2) {
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr:nth-child(1) th:nth-child(3),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr:nth-child(1) th:nth-child(3) {
+  width: 110px !important;
+  min-width: 110px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr:nth-child(1) th:nth-child(n+4):nth-child(-n+10),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr:nth-child(1) th:nth-child(n+4):nth-child(-n+10) {
+  width: 140px !important;
+  min-width: 140px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr:nth-child(1) th:nth-child(n+10):nth-child(-n+15),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr:nth-child(1) th:nth-child(n+10):nth-child(-n+15) {
+  width: 200px !important;
+  min-width: 200px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr:nth-child(1) th:nth-child(16),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr:nth-child(1) th:nth-child(16),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr:nth-child(1) th:nth-child(18),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr:nth-child(1) th:nth-child(18) {
+  width: 230px !important;
+  min-width: 230px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.dtfc-fixed-right:last-child,
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody th.dtfc-fixed-right:last-child,
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.dtfc-fixed-right:last-child {
+  right: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.dtfc-fixed-right:nth-last-child(2),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody th.dtfc-fixed-right:nth-last-child(2),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.dtfc-fixed-right:nth-last-child(2) {
+  right: 230px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.dtfc-fixed-right:nth-last-child(3),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody th.dtfc-fixed-right:nth-last-child(3),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.dtfc-fixed-right:nth-last-child(3) {
+  right: 310px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr:nth-child(1) th:nth-child(17),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr:nth-child(1) th:nth-child(17) {
+  width: 80px !important;
+  min-width: 80px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th {
+  padding: 8px 10px !important;
+  text-wrap: nowrap;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .form-select,
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .form-control {
+  line-height: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.switch-column .btn {
+  padding: 10px 10px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.switch-column .btn svg {
+  margin-right: 0;
+  width: 30px;
+  height: 30px;
+}
+
+/* file-manage-blc ----------------------------------- */
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .file-manage-blc {
+  display: flex;
+  align-items: center;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .file-manage-blc .popupDeleteFile {
+  margin-right: 8px;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .file-manage-blc .file-blc {
+  overflow-y: auto;
+  height: 50px !important;
+  padding: 2px !important;
+  display: flex;
+  align-items: center;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .file-manage-blc .file-blc .file-ul {
+  counter-reset: num;
+  position: relative;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .file-manage-blc .file-blc .file-ul * {
+  font-size: 90%;
+  text-align: left;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .file-manage-blc .file-blc .file-ul li::before {
+  counter-increment: num;
+  content: "" counter(num) ". ";
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .file-manage-blc .file-blc .file-ul li {
+  padding-left: 20px;
+  position: relative;
+  color: var(--color-red);
+}
+
+/* switch-column -------------------------------*/
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .switch-column .btn>svg {
+  width: 26px;
+  height: 26px;
+  margin-right: 0;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .switch-column .btn {
+  padding: 8px 10px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.file-column .file-manage-blc .file-blc input {
+  font-size: 80%;
+  padding: 15px 20px !important;
+  background: #f8f9fa;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.file-column .file-manage-blc .file-blc:not(:has(.file-ul)) {
+  border: none;
+  padding: 0 !important;
+  height: auto !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(2).dtfc-fixed-left,
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody th:nth-child(2).dtfc-fixed-left {
+  left: 41px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td:nth-child(3).dtfc-fixed-left {
+  left: 100px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(3).dtfc-fixed-left,
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody th:nth-child(3).dtfc-fixed-left {
+  left: 101px !important;
+}
+
+/* --------------------------------------------------------
+
+switch-file
+
+----------------------------------------------------------*/
+
+.modal.switch-file .modal-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.switch-file .modal-flex .file-column {
+  width: calc(50% - 70px);
+}
+
+.modal.switch-file .modal-flex .switch-column {
+  max-width: 70px;
+  width: 100%;
+  margin: 0 20px;
+}
+
+.modal.switch-file .modal-flex .switch-column button {
+  width: 70px;
+  height: 70px;
+}
+
+.modal.switch-file .modal-flex .switch-column button svg {
+  margin-right: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.modal.switch-file .modal-flex .target-column {
+  width: calc(50% - 70px);
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc {
+  min-height: 400px !important;
+  display: block;
+  /* max-height: 100% !important; */
+  padding: 20px 20px 55px !important;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 0;
+  position: relative;
+}
+
+.modal.switch-file .modal-flex .target-column .file-manage-blc .file-blc {
+  height: 350px !important;
+  max-height: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul li label.custom-checkbox-wrapper {
+  width: auto;
+  padding-left: 0;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul {
+  counter-reset: num;
+  /* position: relative; */
+  /* max-height: 320px; */
+  overflow-y: auto;
+  width: 100%;
+  order: 1;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .btn {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px !important;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul li::before {
+  counter-increment: num;
+  content: "" counter(num) ". ";
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+
+.modal.switch-file .modal-flex .target-column .file-manage-blc .file-blc .preview-file {
+  width: 100%;
+  order: 2;
+}
+
+.modal.switch-file .modal-flex .target-column .file-manage-blc .file-blc .preview-file iframe {
+  height: 310px;
+  width: 100%;
+}
+
+.modal.switch-file .modal-flex .target-column .file-manage-blc .file-blc .preview-file embed {
+  height: 300px;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul li {
+  padding: 10px 10px 10px 30px;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-radius: 8px;
+}
+
+/* .modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul li:last-child {
+  margin-bottom: 0;
+} */
+
+.modal.switch-file .modal-flex>div .file-manage-blc>h3.ttl {
+  font-size: 120%;
+  font-weight: bold;
+  background-color: var(--color-mid-grey);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  /* color: #fff; */
+  border-bottom: 1px solid #808080;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul li label {
+  padding-left: 7px;
+  font-size: 100%;
+  width: 100%;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc {
+  border: 1px solid #808080;
+}
+
+.modal.switch-file .modal-flex .switch-column button i {
+  font-size: 150%;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .popupDeleteFile:hover svg *,
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .popupDownloadFile:hover svg * {
+  fill: #ffffff;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .popupDeleteFile {
+  padding: 5px 25px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .d-flex {
+  /* margin-top: 20px; */
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: calc(100% - 40px);
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul li input {
+  width: 20px;
+  height: 20px;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc:has(.file-ul li) .preview-file {
+  display: block;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .preview-file {
+  display: none;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul li.is-selected {
+  background-color: #e0f7fa;
+  border-color: #00bcd4;
+}
+
+.modal.switch-file .modal-flex>div .file-manage-blc .file-blc .file-ul li:hover {
+  background-color: #f0f0f0;
+}
+
+/* native-radio -------------------------------*/

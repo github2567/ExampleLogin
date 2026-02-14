@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.bg-tbl02 .badge {
+  margin-top: 3px;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td.bg-tbl02 .badge:first-child {
+  margin-top: 0;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(1),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(1) {
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(n+2):nth-child(-n+7),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(n+2):nth-child(-n+7) {
+  width: 130px !important;
+  min-width: 130px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(n+8):nth-child(-n+11),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(n+8):nth-child(-n+11) {
+  width: 180px !important;
+  min-width: 180px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(12),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(12),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(13),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(13) {
+  width: 150px !important;
+  min-width: 150px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(14),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(14) {
+  width: 200px !important;
+  min-width: 200px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(15),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(15) {
+  width: 120px !important;
+  min-width: 120px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(16),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(16) {
+  width: 150px !important;
+  min-width: 150px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(n+17):nth-child(-n+18),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(n+17):nth-child(-n+18) {
+  width: 120px !important;
+  min-width: 120px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(19),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(19) {
+  width: 300px !important;
+  min-width: 300px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td:last-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+}
+
+/* .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td:nth-child(n+13):nth-child(-n+19) {
+  background-color: rgba(220, 234, 247, 0.2);
+} */

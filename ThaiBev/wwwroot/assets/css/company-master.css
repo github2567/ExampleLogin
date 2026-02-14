@@ -1,0 +1,22 @@
+.head-btn-style01 {
+    top: 7px;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(1),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(1) {
+  width: 40px !important;
+  min-width: 40px !important;
+  padding: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(2),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(2) {
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(3),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(3) {
+  width: 110px !important;
+  min-width: 110px !important;
+}

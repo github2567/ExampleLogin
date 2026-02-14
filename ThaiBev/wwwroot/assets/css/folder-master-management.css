@@ -1,0 +1,680 @@
+@charset "UTF-8";
+
+#folder-master-blc .folder-blc {
+  display: flex;
+}
+
+#folder-master-blc .folder-blc .folder-left {
+  width: 200px;
+}
+
+#folder-master-blc .folder-blc .folder-right {
+  width: calc((100% - 1rem) - 200px);
+  box-sizing: border-box;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  border-left: 1px solid var(--color-light-grey);
+}
+
+#folder-master-blc .folder-blc .folder-left .folder-preview {
+  padding: 10px 10px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  background-color: var(--color-red);
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: all ease-in 0.3s;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#folder-master-blc .folder-blc .folder-left .folder-preview i {
+  width: 30px;
+}
+
+#folder-master-blc .folder-blc .folder-left .folder-preview:hover {
+  background-color: #890612;
+}
+
+#folder-master-blc .folder-blc .folder-right .nav-tabs-blc .nav-ul-blc {
+  width: 100%;
+}
+
+/* ------------------------------------------------
+
+#breadcrumb
+
+------------------------------------------------*/
+
+#breadcrumb {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#breadcrumb>a:first-child {
+  font-weight: bold;
+}
+
+#breadcrumb>a:last-child {
+  font-weight: 300;
+}
+
+
+/* ------------------------------------------------
+
+.folder-breadcrumbs  
+
+------------------------------------------------*/
+
+.folder-breadcrumbs {
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ededed;
+}
+
+.folder-breadcrumbs .f-breadcrumbs {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.folder-breadcrumbs .f-breadcrumbs li {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.folder-breadcrumbs .f-breadcrumbs li.nav-item>a {
+  color: var(--color-black);
+  font-weight: bold;
+  transition: all ease-in 0.3s;
+}
+
+.folder-breadcrumbs .f-breadcrumbs li:first-child {
+  padding-left: 0;
+}
+
+
+.folder-breadcrumbs .f-breadcrumbs li.separator i::before {
+  font-size: 10px;
+}
+
+.folder-breadcrumbs .f-breadcrumbs li.separator i {
+  display: flex;
+  align-items: center;
+}
+
+.folder-breadcrumbs .f-breadcrumbs li.nav-item>a.last-link {
+  font-weight: 300;
+  color: var(--color-dark-grey);
+}
+
+.folder-breadcrumbs .f-breadcrumbs li.nav-item>a:hover {
+  text-decoration: underline !important;
+}
+
+.folder-breadcrumbs .f-breadcrumbs li.nav-item>a.last-link:hover {
+  text-decoration: none !important;
+  pointer-events: none;
+  cursor: context-menu;
+}
+
+/* .folder-ul  ------------------------------------------------*/
+
+.folder-details {
+  /* padding: 1rem 0; */
+  box-sizing: border-box;
+}
+
+/* ttl-style-section -------------- */
+
+.folder-details .ttl-style-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.folder-details .ttl-style-section .ul-ttl {
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 1;
+  width: calc(100% - 700px);
+}
+
+.folder-details .ttl-style-section .btn-style01 {
+  max-width: 700px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.folder-details .ttl-style-section .btn-style01 .btn {
+  width: auto;
+  min-width: 50px;
+}
+
+/* ul-flex -------------- */
+
+.folder-details .ul-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.folder-details .ul-flex .list-item {
+  width: calc((100% - 5rem) / 6);
+  margin-right: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.folder-details .ul-flex .list-item:nth-child(-n+6) {
+  margin-top: 0;
+}
+
+.folder-details .ul-flex .list-item:nth-child(6n+6),
+.folder-details .ul-flex .list-item:last-child {
+  margin-right: 0;
+}
+
+.folder-details .ul-flex .list-item .img>img {
+  max-width: 100%;
+  width: 120px;
+  margin: auto;
+}
+
+.folder-details .ul-flex .list-item a>.ttl {
+  font-weight: bold;
+  font-size: 100%;
+  display: block;
+  width: 100%;
+  line-height: 1.2;
+  /* min-height: 40px; */
+  /* text-wrap: nowrap; */
+  /* overflow: hidden; */
+}
+
+.folder-details .ul-flex .list-item a>.detail {
+  font-size: 80%;
+  display: block;
+  line-height: 1;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.folder-details .ul-flex .list-item a {
+  color: var(--color-black);
+  padding: 30px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all ease-in 0.3s;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.folder-details .ul-flex .list-item a>.img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.folder-details .ul-flex .list-item:hover {
+  background-color: var(--color-light-grey);
+}
+
+.folder-details .ul-flex .list-item:hover .selectgroup-input {
+  opacity: 1;
+  z-index: 1;
+}
+
+.folder-details .ul-flex .list-item .selectgroup-input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: auto;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  bottom: 0;
+  border-radius: 999px;
+}
+
+.folder-details .ul-flex .list-item .selectgroup-input:checked+.open-folder,
+.folder-details .ul-flex .list-item .selectgroup-input:checked+.open-file,
+.folder-details .ul-flex .list-item .selectgroup-input:checked+.open-file-preview {
+  border: 2px solid #1572e8;
+  z-index: 1;
+  color: #1572e8;
+  background: rgba(21, 114, 232, .15);
+}
+
+.folder-details .ul-flex .list-item .selectgroup-input:checked {
+  opacity: 1 !important;
+  z-index: 9 !important;
+}
+
+/* ------------------------------------------------
+
+collapse-menu  
+
+------------------------------------------------ */
+
+.collapse-menu .collapse-list>a {
+  display: block;
+}
+
+.collapse-menu .collapse-list>a.active {
+  background-color: var(--color-light-grey);
+}
+
+.collapse-menu .collapse-list {
+  margin-top: 3px;
+}
+
+.collapse-menu .collapse-list>ul>li {
+  width: 100%;
+}
+
+.collapse-menu .collapse-list>ul>li>a {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.collapse-menu .collapse-list>ul>li>a .sub-item {
+  width: calc(100% - 8px);
+}
+
+.collapse-menu .collapse-list a {
+  color: var(--color-black);
+}
+
+.collapse-menu .collapse-list>ul>li>div {
+  padding-left: 28px;
+  box-sizing: border-box;
+}
+
+.collapse-menu .collapse-list>ul>li .collapse>ul>li {
+  display: block;
+  width: 100%;
+}
+
+.collapse-menu .collapse-list>ul>li .collapse>ul>li>a {
+  display: block;
+  box-sizing: border-box;
+}
+
+.collapse-menu .collapse-list:first-child {
+  margin-top: 0;
+}
+
+.collapse-menu .collapse-list>a,
+.collapse-menu .collapse-list>ul>li>a {
+  padding: 5px 10px;
+  transition: all ease-in 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.collapse-menu .collapse-list>a:hover,
+.collapse-menu .collapse-list>ul>li>a:hover {
+  background-color: var(--color-light-grey);
+}
+
+.collapse-menu {
+  margin-top: 1rem;
+}
+
+/* ------------------------------------------------
+
+folder-tbl01
+
+------------------------------------------------ */
+
+#folder-tbl01 {
+  width: 100%;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .date {
+  margin-top: 5px;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(1),
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(1) {
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(3),
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(3),
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(5),
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(5) {
+  width: 200px !important;
+  min-width: 200px !important;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead tr th:nth-child(4),
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead tr th:nth-child(4) {
+  width: 130px !important;
+  min-width: 130px !important;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>figure {
+  width: 100%;
+  max-width: 30px;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>figure>img {
+  max-width: 30px;
+  width: 100%;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt {
+  width: calc(100% - 30px);
+  /* padding-left: 10px; */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt h4 {
+  text-align: left;
+  font-weight: 400;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt h4+h5 {
+  text-align: left;
+  line-height: 1;
+  font-size: 80%;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt h4 a,
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt h5 a {
+  transition: all ease-in 0.3s;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt h4 a:hover,
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt h5 a:hover {
+  text-decoration: underline !important;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list ul li>div.folder-name {
+  margin-top: 3px;
+}
+
+/* #folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list .folder-master {
+  max-width: 150px;
+  width: 100%;
+  background: #d7d6d6;
+  padding: 5px 10px;
+  border-radius: 8px;
+  line-height: 1;
+  font-weight: 400;
+} */
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list ul {
+  width: calc(100% - 150px);
+  /* padding-left: 10px; */
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list ul li {
+  padding-right: 15px;
+  margin-right: 15px;
+  position: relative;
+  box-sizing: border-box;
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* width: calc(100% / 6); */
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list ul li::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: #dee2e6;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list ul li a {
+  display: inline-block;
+  text-align: left;
+  /* width: 100%; */
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list ul li a:hover {
+  text-decoration: underline !important;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #ededed;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list ul li>div {
+  text-align: left;
+}
+
+#folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list ul li>div.folder-path a {
+  font-size: 80%;
+  width: 100%;
+  background: #dfdfdf;
+  padding: 4px 5px;
+  text-align: center;
+  border-radius: 3px;
+  color: #101010;
+}
+
+/* #folder-tbl01 .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-flex>.txt .folder-list .folder-master div:nth-child(2) a {
+  font-size: 80%;
+  line-height: 1;
+} */
+
+/* ------------------------------------------------
+
+modal-create
+
+------------------------------------------------ */
+
+.modal-create .create-list-blc {
+  width: 100%;
+  display: block;
+  /* margin-top: 20px; */
+}
+
+.modal-create .create-list-blc label {
+  display: block;
+  font-weight: bold;
+  color: var(--color-black) !important;
+  margin-bottom: 5px;
+}
+
+.modal-create .create-list-blc .form-control {
+  width: 100%;
+  max-width: 100%;
+}
+
+.modal-create {
+  width: 100%;
+}
+
+.modal-create .create-list-blc .txt-info {
+  position: relative;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: 400;
+  color: var(--bs-blue);
+  margin-top: 5px;
+  line-height: 1.2;
+}
+
+.modal-create .create-list-blc .txt-info::before {
+  content: "\f05a";
+  font-family: 'Font Awesome 5 Solid';
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+/* ------------------------------------------------
+
+preview-folder
+
+------------------------------------------------ */
+
+#preview-folder-datatables {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+#preview-folder-tbl01 {
+  width: 100%;
+}
+
+
+#preview-folder-datatables thead th {
+  background-color: var(--color-mid-grey);
+  /* color: #fff; */
+  text-align: center;
+  font-size: 100%;
+  padding: 15px 10px !important;
+}
+
+#preview-folder-datatables thead th,
+#preview-folder-datatables tbody td {
+  text-align: center;
+  border: 1px solid #dee2e6 !important;
+  word-break: break-word;
+  line-height: 1;
+}
+
+#preview-folder-datatables tbody td .ul-li li .img img {
+  max-width: 100%;
+  width: 50px;
+  margin: auto;
+}
+
+#preview-folder-datatables tbody td .ul-li li .img img+figcaption {
+  font-weight: bold;
+}
+
+#preview-folder-datatables tbody td .txt-blc {
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  white-space: nowrap;
+  font-size: 120%;
+  border: 1px solid #ccc;
+  background-color: var(--color-grey);
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+#preview-folder-datatables thead th:nth-child(1) {
+  width: 130px;
+  min-width: 130px;
+}
+
+#preview-folder-datatables thead th:nth-child(n+2):nth-child(-n+8) {
+  width: 220px;
+  min-width: 220px;
+}
+
+#preview-folder-datatables tbody td {
+  padding: 3px 3px !important;
+}
+
+#preview-folder-datatables tbody td .ul-li li .img {
+  position: relative;
+  text-align: center;
+}
+
+
+#preview-folder-datatables tbody td.border-bottom {
+  border-bottom: 2px solid var(--color-black) !important;
+}
+
+#preview-folder-datatables tbody td a {
+  display: block;
+  width: 100%;
+  padding: 10px 10px !important;
+}
+
+#preview-folder-datatables tbody td a:hover {
+  background-color: var(--color-light-grey) !important;
+
+}
+
+/* ------------------------------------------------
+
+.folder-flex  
+
+------------------------------------------------*/
+
+.folder-flex .folder-list-item {
+  /* margin-top: 1rem; */
+  /* padding-top: 1rem; */
+  /* box-sizing: border-box; */
+  /* border-top: 1px solid #ededed; */
+}
+
+.folder-flex .folder-list-item .folder-ttl {
+  font-size: 120%;
+  font-weight: 600;
+  display: block;
+}
+
+.folder-flex .folder-list-item .folder-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.folder-flex .folder-list-item .folder-details .chart-container:nth-child(1) {
+  width: 60%;
+}
+
+.folder-flex .folder-list-item .folder-details .chart-container:nth-child(2) {
+  width: 40%;
+}
+
+.folder-flex .folder-list-item:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}

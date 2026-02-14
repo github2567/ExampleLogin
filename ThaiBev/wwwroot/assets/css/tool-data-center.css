@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.head-btn-style01 {
+  top: 65px;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(1),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(1) {
+  width: 40px !important;
+  min-width: 40px !important;
+  padding: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(2),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(2) {
+  width: 110px !important;
+  min-width: 110px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(15),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(15) {
+  width: 90px !important;
+  min-width: 90px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(n+3):nth-child(-n+8),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(n+3):nth-child(-n+8) {
+  width: 130px !important;
+  min-width: 130px !important;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(n+9):nth-child(-n+14),
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(n+9):nth-child(-n+14) {
+  width: 160px !important;
+  min-width: 160px !important;
+}
+
+/* ----------------------------------------- 
+
+data-blc nav-tabs-blc
+
+--------------------------------------------*/
+
+#data-blc .nav-toggle .toggle-sidebar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----------------------------------------- 
+
+modal
+
+--------------------------------------------*/
+
+.fields-marked-txt>span {
+  color: var(--color-red);
+}
+
+.fields-marked-txt {
+  font-size: 90%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+
+/* -------------------------------------------------------
+
+previewModal
+
+------------------------------------------------------- */
+
+.previewModal .preview-img {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.previewModal .preview-img img {
+  margin: auto;
+}
+
+.previewModal .preview-img::before {
+  content: "TMA TOOLING\A WATER MARK";
+  position: absolute;
+  left: 0;
+  top: 210px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 400%;
+  color: #8ebfe3;
+  opacity: 0.5;
+  transform: rotate(-30deg);
+  white-space: pre;
+}
+
+/* -------------------------------------------------------
+
+tool-layout-datatables_wrapper
+
+------------------------------------------------------- */
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-btn-blc .btn {
+  padding: 5px 5px;
+  width: calc((100% - 5px) / 2);
+  margin-right: 5px;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-btn-blc .btn:last-child {
+  margin-right: 0;
+}
+
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table {
+  width: 100% !important;
+}

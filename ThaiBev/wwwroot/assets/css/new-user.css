@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+.head-btn-style01 {
+  top: 6px;
+}
+
+
+.checkbox-wrapper-22 .switch-approve {
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  width: 40px;
+}
+
+.checkbox-wrapper-22 .switch-approve input {
+  display: none;
+}
+
+.checkbox-wrapper-22 .slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.checkbox-wrapper-22 .slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 16px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 16px;
+}
+
+.checkbox-wrapper-22 input:checked+.slider {
+  background-color: #66bb6a;
+}
+
+.checkbox-wrapper-22 input:checked+.slider:before {
+  transform: translateX(16px);
+}
+
+.checkbox-wrapper-22 .slider.round {
+  border-radius: 34px;
+}
+
+.checkbox-wrapper-22 .slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+/* --------------------------------------------------
+
+new-user-datatables_wrapper selectgroup
+
+-------------------------------------------------- */
+
+
+#new-user-datatables_wrapper .selectgroup-pills .selectgroup-item:last-child {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+}
+
+#new-user-datatables_wrapper .selectgroup-pills .selectgroup-item .selectgroup-input {
+  opacity: 1;
+  display: inline-block;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+#new-user-datatables_wrapper .selectgroup-pills .selectgroup-item {
+  width: 20px;
+  height: 20px;
+  margin-right: 0;
+}
+
+#new-user-datatables_wrapper .dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .form-control {
+    text-align: center;
+}
+
+/* --------------------------------------------------
+
+selectgroup
+
+-------------------------------------------------- */
+
+.selectgroup-pills .selectgroup-item:last-child {
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid #dee2e6;
+}
+
+
+.selectgroup-input:checked+.selectgroup-button {
+  border-color: #222222;
+  color: #fff !important;
+  background: #222222;
+}
+
+.selectgroup-pills .selectgroup-button {
+  border-radius: 8px !important;
+  padding-left: 30px;
+  border: 1px solid #808080;
+  padding: 6px 13px;
+  font-size: 100%;
+  line-height: 1;
+  color: #808080;
+  width: 100%;
+  max-width: 100%;
+}
+
+.selectgroup-pills .selectgroup-item .selectgroup-input {
+  opacity: 0;
+  z-index: 1;
+  top: auto;
+  bottom: auto;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.selectgroup-input:focus+.selectgroup-button {
+  border-color: #808080;
+  color: #808080;
+  box-shadow: none;
+}
+
+.selectgroup-pills .selectgroup-item {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 3px;
+  position: relative;
+}
+
+
+.selectgroup-pills .selectgroup-item:nth-child(2) {
+  margin-right: 0;
+}
+
+/* --------------------------------------------------
+
+data-blc
+
+-------------------------------------------------- */
+
+#data-blc .card .card-header .ttl-style-blc .filter-style02 .nav-filters__item {
+  max-width: 300px;
+  width: 100%;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .btn .icon-status svg {
+  margin-right: 0;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .btn svg {
+  margin-right: 0;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.sorting_asc_disabled,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.sorting_asc_disabled {
+  width: 40px !important;
+  min-width: 40px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-no,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-no {
+  width: 70px !important;
+  min-width: 70px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-action,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-action {
+  width: 100px !important;
+  min-width: 100px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-fn,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-fn,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-ln,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-ln,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-email,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-email,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-company,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-company,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-usergroup,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-usergroup {
+  width: 250px !important;
+  min-width: 240px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-phone-number,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-phone-number {
+  width: 130px !important;
+  min-width: 130px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-pending-user,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-pending-user {
+  width: 150px !important;
+  min-width: 150px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-approve,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-approve {
+  width: 150px !important;
+  min-width: 150px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-manage,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-manage {
+  width: 130px !important;
+  min-width: 130px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th.th-approve-admin,
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th.th-approve-admin {
+  width: 100px !important;
+  min-width: 110px !important;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .form-select {
+  padding-right: 20px;
+  background-position: right 0.3rem center;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .badge {
+  padding: 8px 8px;
+  font-size: 90%;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-btn-blc .btn-approved svg {
+  height: 28px;
+  width: 30px;
+}
+
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(1),
+#new-user-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(1) {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* --------------------------------------
+
+access-right-datatables_wrapper 
+
+-------------------------------------- */
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .d-flex .tbl-btn-blc {
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #dee2e6;
+}
+
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(1),
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(1) {
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(1).dtfc-fixed-left,
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(1).dtfc-fixed-left {
+  left: 0 !important;
+}
+
+
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(2).dtfc-fixed-left,
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(2).dtfc-fixed-left,
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td:nth-child(2).dtfc-fixed-left {
+  left: 60px !important;
+}
+
+
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(2),
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(2) {
+  width: 290px !important;
+  min-width: 290px !important;
+}
+
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(n+3):nth-child(-n+8),
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(n+3):nth-child(-n+8) {
+  width: 130px !important;
+  min-width: 130px !important;
+}
+
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(n+9):nth-child(-n+14),
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(n+9):nth-child(-n+14) {
+  width: 170px !important;
+  min-width: 170px !important;
+}
+
+#access-right-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .d-flex {
+  justify-content: center;
+}
+
+#tbl02 .multiple-document-acess .nav-filters__list>li .header-main__search {
+  width: 350px;
+}
+
+/* --------------------------------------
+
+tbl-btn-blc
+
+-------------------------------------- */
+
+.tbl-btn-blc {
+  display: flex;
+  justify-content: center;
+}
+
+.tbl-btn-blc .btn {
+  width: auto !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent;
+  opacity: 1;
+}
+
+.tbl-btn-blc .btn:last-child {
+  margin-right: 0;
+}
+
+.tbl-btn-blc .btn svg {
+  width: 35px;
+  height: 35px;
+}
+
+/* --------------------------------------
+
+user-authority-datatables_wrapper
+
+-------------------------------------- */
+
+#user-authority-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(1),
+#user-authority-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(1) {
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+#user-authority-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .dataTables_scrollHeadInner .table thead th:nth-child(2),
+#user-authority-datatables_wrapper.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table thead th:nth-child(2) {
+  width: 90px !important;
+  min-width: 90px !important;
+}
+
+/* --------------------------------------
+
+button
+
+-------------------------------------- */
+
+.button.btn-reset:hover,
+.button.btn-reset:focus {
+  color: var(--color-white) !important;
+  background-color: #383838 !important;
+}
+
+/* --------------------------------------
+
+button
+
+-------------------------------------- */
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .form-control {
+    text-align: center !important;
+}
+.dataTables_wrapper .dataTables_scroll .dataTables_scrollBody .table tbody td .tbl-btn-blc .btn:disabled svg * {
+    stroke: #a5a3a3 !important;
+    fill: none !important;
+}

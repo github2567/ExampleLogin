@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\bin\Debug\net8.0\ThaiBev.Domain.deps.json
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\bin\Debug\net8.0\ThaiBev.Domain.dll
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\bin\Debug\net8.0\ThaiBev.Domain.pdb
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\ThaiBev.Domain.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\ThaiBev.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\ThaiBev.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\ThaiBev.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\ThaiBev.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\ThaiBev.Domain.dll
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\refint\ThaiBev.Domain.dll
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\ThaiBev.Domain.pdb
+C:\Users\Lenovo\Desktop\Apply\ThaiBev\src\ThaiBev.Domain\obj\Debug\net8.0\ref\ThaiBev.Domain.dll
