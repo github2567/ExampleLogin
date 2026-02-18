@@ -54,68 +54,87 @@ namespace ThaiBev.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Index(string username, string password)
+        public async Task<IActionResult> SetToken([FromBody]string token)
+        {
+            if(string.IsNullOrEmpty(token))
+            {
+                return BadRequest();
+            }
+
+            HttpContext.Session.SetString("JWToken", token);
+            return Ok();
+        }
+
+        [HttpPost]
+        //public async Task<IActionResult> Index([FromBody] string username, [FromBody] string password)
+        public async Task<IActionResult> Index([FromBody] UserRegistration input)
         {
            
             var errMsg = "";
             if (!ModelState.IsValid)
             {
-                ViewBag.inputUsername = username;
+                ViewBag.inputUsername = input.UserName;
                 ViewBag.Error = "Username หรือ Password ไม่ถูกต้อง";
                 return View();
             }
 
-            var result =
-                await _signInManager.PasswordSignInAsync(username, password, isPersistent: false,
-                    lockoutOnFailure: false);
-
-            if (result.Succeeded)
+            try
             {
+                var result = await _signInManager.PasswordSignInAsync(input.UserName, input.Password, isPersistent: false, lockoutOnFailure: false);
 
-                UserRegister model = new UserRegister();
-                model.UserName = username;
-                model.Password = password;
-                model.ConfirmPassword = password;
-                var response = await _httpClient.PostAsJsonAsync("http://localhost:5147/api/Authen/login", model);
-                if (response.IsSuccessStatusCode)
+                if (result.Succeeded)
                 {
-                    //var token = await response.Content.ReadFromJsonAsync<string>();
-                    //HttpContext.Session.SetString("JWToken", token);
 
-                    var dict = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
-                    string token = dict["token"];
-                    HttpContext.Session.SetString("JWToken", token);
+                    UserRegister model = new UserRegister();
+                    model.UserName = input.UserName;
+                    model.Password = input.Password;
+                    model.ConfirmPassword = input.Password;
+                    var response = await _httpClient.PostAsJsonAsync("http://localhost:5186/api/Authen/login", model);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        //var token = await response.Content.ReadFromJsonAsync<string>();
+                        //HttpContext.Session.SetString("JWToken", token);
+
+                        var dict = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
+                        string token = dict["token"];
+                        HttpContext.Session.SetString("JWToken", token);
+                    }
+
+
+
+                    HttpContext.Session.SetString("Username", input.UserName);
+                    return RedirectToAction("Index", "Home");
                 }
 
 
+                if (result.IsLockedOut)
+                {
+                    errMsg = "Is Locked Out";
+                }
 
-                HttpContext.Session.SetString("Username", username);
-                return RedirectToAction("Index", "Home");
+                if (result.IsNotAllowed)
+                {
+                    errMsg = "Is Not Allowed";
+                }
+
+                if (result.RequiresTwoFactor)
+                {
+                    errMsg = "Requires Two Factor.";
+                }
+
+                if (errMsg == "")
+                {
+                    errMsg = "Username หรือ Password ไม่ถูกต้อง";
+                }
+
             }
-
-           
-            if (result.IsLockedOut)
+            catch (Exception ex)
             {
-                errMsg = "Is Locked Out";
-            }
 
-            if (result.IsNotAllowed)
-            {
-                errMsg = "Is Not Allowed";
-            }
-
-            if (result.RequiresTwoFactor)
-            {
-                errMsg = "Requires Two Factor.";
-            }
-
-            if (errMsg == "")
-            {
-                errMsg = "Username หรือ Password ไม่ถูกต้อง";
             }
 
             ViewBag.Error = errMsg;
-            return View();
+            return StatusCode(500, errMsg);
         }
 
         [HttpGet]
@@ -167,7 +186,13 @@ namespace ThaiBev.Controllers
 
                 if (!ModelState.IsValid)
                 {
-                    return PartialView("Register", model);
+                    string err = "";
+                    if(ModelState != null && ModelState.Count() > 0)
+                    {
+                        err = ModelState.Values.SelectMany(v => v.Errors).FirstOrDefault().ErrorMessage;
+                    }
+
+                    return StatusCode(500, err);
                 }
 
                 var addUser = new ApplicationUser
@@ -178,7 +203,7 @@ namespace ThaiBev.Controllers
 
                 if (result.Succeeded)
                 {
-                    return View("Index");
+                    return RedirectToAction("Index", "Login");
                 }
                 else
                 {
@@ -187,7 +212,12 @@ namespace ThaiBev.Controllers
                         ModelState.AddModelError("", error.Description);
                     }
 
-                    return PartialView("Register", model);
+                    string err = "";
+                    if (ModelState != null && ModelState.Count() > 0)
+                    {
+                        err = ModelState.Values.SelectMany(v => v.Errors).FirstOrDefault().ErrorMessage;
+                    }
+                    return StatusCode(500, err);
                 }
             }
             catch (Exception ex)

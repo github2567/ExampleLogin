@@ -58,8 +58,13 @@
                     </div>
                 </div>
 
-                <div>
-                    <label><font color="red">Passwords must be at least 6 characters.</font></label>
+                <div class="form-group mb-3 d-flex">
+                    <div class="col-5">
+                        
+                    </div>
+                    <div class="col-7">
+                        <label id="errorMessage" style="color:red !important;"></label>
+                    </div>
                 </div>
 
                 <div>
@@ -120,7 +125,7 @@
                         var user = $("#User").val();
                         var password = $("#Password").val();
                         var confirm = $("#ConfirmPassword").val();
-
+                        
                         $.ajax({
                             url: '@Url.Action("ConfirmRegister", "Login")',
                             type: 'POST',
@@ -148,7 +153,7 @@
                                 // });
                             },
                             error: function (xhr, status, error) {
-                                console.error("Error:", error);
+                                $("#errorMessage").text(xhr.responseText);
                             }
                         });
                         
