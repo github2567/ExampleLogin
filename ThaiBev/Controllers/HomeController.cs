@@ -41,11 +41,31 @@ namespace ThaiBev.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var token = HttpContext.Session.GetString("JWToken");
-            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            string displayName = "";
 
-            var userName = User.Identity.Name;
-            ViewBag.Name = "Welcome User : " + userName;
+            try
+            {
+                var token = HttpContext.Session.GetString("JWToken");
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                var response = await _httpClient.GetAsync("http://localhost:5186/api/Test?id=10");
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+
+                    displayName = "Welcome User : " + User.Identity.Name;
+                    
+                }
+                else
+                {
+                    displayName = "Token error. " + response.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            ViewBag.Name = displayName;
 
             return View();
         }
