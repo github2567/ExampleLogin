@@ -14,9 +14,10 @@ namespace ThaiBev.WebApi.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
-        public TestController()
+        private readonly CustomerDAL _customer;
+        public TestController(CustomerDAL customer)
         {
-            
+            _customer = customer;
         }
 
         [HttpGet]
@@ -27,6 +28,21 @@ namespace ThaiBev.WebApi.Controllers
                 var result = "Success";
 
                 return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpGet("Customer")]
+        public async Task<ActionResult<List<Customers>>> GetTestCustomer()
+        {
+            try
+            {
+                var customer = await _customer.GetCustomerAllList();
+
+                return Ok(customer);
             }
             catch (Exception ex)
             {

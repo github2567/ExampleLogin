@@ -24,11 +24,17 @@ namespace ThaiBev.DAL.Data
         }
 
         public virtual DbSet<UserList> UserList { get; set; }
+        public virtual DbSet<Customers> Customers { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<UserList>(entity =>
+            {
+                entity.Property(e => e.Id).HasColumnName("ID");
+            });
+
+            modelBuilder.Entity<Customers>(entity =>
             {
                 entity.Property(e => e.Id).HasColumnName("ID");
             });

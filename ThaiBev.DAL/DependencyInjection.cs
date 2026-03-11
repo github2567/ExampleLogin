@@ -45,6 +45,7 @@ namespace ThaiBev.DAL
 
 
             services.AddScoped<UserListDAL>();
+            services.AddScoped<CustomerDAL>();
 
 
             return services;

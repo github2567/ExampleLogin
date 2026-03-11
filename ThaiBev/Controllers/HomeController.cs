@@ -6,6 +6,7 @@ using NuGet.Common;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using Newtonsoft.Json;
 using ThaiBev.DAL.Common;
 using ThaiBev.DAL.Data;
 using ThaiBev.Domain.Models;
@@ -47,10 +48,12 @@ namespace ThaiBev.Controllers
             {
                 var token = HttpContext.Session.GetString("JWToken");
                 _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-                var response = await _httpClient.GetAsync("http://localhost:5186/api/Test?id=10");
+                //var response = await _httpClient.GetAsync("http://localhost:5186/api/Test?id=10");
+                var response = await _httpClient.GetAsync("http://localhost:5186/api/Test/Customer");
                 if (response.IsSuccessStatusCode)
                 {
                     var json = await response.Content.ReadAsStringAsync();
+                    var customers = JsonConvert.DeserializeObject<List<Customers>>(json);
 
                     displayName = "Welcome User : " + User.Identity.Name;
                     
